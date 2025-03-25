@@ -1,6 +1,3 @@
-**About**
-
-This project was developed as part of an individual study assignment for the Complex Data Structures course at Saxion University of Applied Sciences.
 
 **Track Manager Application**
 
