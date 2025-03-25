@@ -59,7 +59,7 @@ and `sorting`, as well as utility methods like `contains`, `isEmpty,` `size`, `c
 Detailed information for each method is stored in the JavaDoc comments within the `MyArrayList` file and `SaxList`
 interface.
 
-**Implementation:** [MyArrayList](../src/nl/saxion/cds/custom_data_structures/MyArrayList.java)
+**Implementation:** [MyArrayList](../src/custom_data_structures/MyArrayList.java)
 
 **How MyArrayList was tested:**
 
@@ -133,7 +133,7 @@ such as `insertBetween`, `getNodeAtSpecificIndex`, and `removeNode`.
 JavaDoc documentation is provided for all additional methods and inner `DLNode` class in the `MyDoublyLinkedList` class,
 documentation for the primary operations already presented in the `SaxList` interface.
 
-**Implementation:** [MyDoublyLinkedList](../src/nl/saxion/cds/custom_data_structures/MyDoublyLinkedList.java)
+**Implementation:** [MyDoublyLinkedList](../src/custom_data_structures/MyDoublyLinkedList.java)
 
 **How MyDoublyLinkedList was tested:**
 
@@ -209,7 +209,7 @@ The method includes JavaDoc and inline comments that clarify each check,
 especially the handling of `null` values and the comparison logic.
 If all checks pass, the method returns `true`, indicating the list is sorted; otherwise, it returns `false`.
 
-**Implementation in `MyArrayList`:** [MyArrayList](../src/nl/saxion/cds/custom_data_structures/MyArrayList.java)
+**Implementation in `MyArrayList`:** [MyArrayList](../src/custom_data_structures/MyArrayList.java)
 
 ![binarySearchInMyArrayList](../resources/imagesForDocumentation/binarySearchInMyArrayList.png)
 
@@ -223,7 +223,7 @@ As a result, binary search becomes inefficient in terms of time complexity on a 
 making it unsuitable for `MyDoublyLinkedList`.
 
 **Implementation in `MyDoublyLinkedList`:
-** [MyDoublyLinkedList](../src/nl/saxion/cds/custom_data_structures/MyDoublyLinkedList.java)
+** [MyDoublyLinkedList](../src/custom_data_structures/MyDoublyLinkedList.java)
 
 ![binarySearchInMyDoublyLinkedList](../resources/imagesForDocumentation/binarySearchInMyDoublyLinkedList.png)
 
@@ -382,7 +382,7 @@ the quickSort method is recursively called on the two halves of the array
 (elements before and after the pivot) to complete the sorting of both halves,
 resulting in a fully sorted array.
 
-**Implementation:** [MyArrayList](../src/nl/saxion/cds/custom_data_structures/MyArrayList.java)
+**Implementation:** [MyArrayList](../src/custom_data_structures/MyArrayList.java)
 
 **How the implementation of quick sort was tested:**
 
@@ -477,7 +477,7 @@ it was decided to add these specialized methods.
 
 Each method in the MyBinarySearchTree class is documented with JavaDoc comments for clarity.
 
-**Implementation:** [MyBinarySearchTree](../src/nl/saxion/cds/custom_data_structures/MyBinarySearchTree.java)
+**Implementation:** [MyBinarySearchTree](../src/custom_data_structures/MyBinarySearchTree.java)
 
 **How the `MyBinarySearchTree` was tested:**
 
@@ -551,7 +551,7 @@ The calculation of the balance factor was also adapted from the source code in t
 
 Each method in the MyAVLBinarySearchTree class is documented with JavaDoc comments for clarity.
 
-**Implementation:** [MyAVLBinarySearchTree](../src/nl/saxion/cds/custom_data_structures/MyAVLBinarySearchTree.java)
+**Implementation:** [MyAVLBinarySearchTree](../src/custom_data_structures/MyAVLBinarySearchTree.java)
 
 **How the `MyAVLBinarySearchTree` was tested:**
 
@@ -649,7 +649,7 @@ Each method in the MyHashMap class is documented with JavaDoc comments for clari
 The values for load factor and initial capacity are retrieved from the Java Hashmap source code:
 https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/util/HashMap.java
 
-**Implementation:** [MyHashMap](../src/nl/saxion/cds/custom_data_structures/MyHashMap.java)
+**Implementation:** [MyHashMap](../src/custom_data_structures/MyHashMap.java)
 
 **How the `MyHashMap` implementation was tested:**
 
@@ -726,7 +726,7 @@ The formulas for these calculations were gotten from lecture sheets covering hea
 
 Each method in the `MyMinHeap` class includes JavaDoc comments for clarity.
 
-**Implementation:** [MyMinHeap](../src/nl/saxion/cds/custom_data_structures/MyMinHeap.java)
+**Implementation:** [MyMinHeap](../src/custom_data_structures/MyMinHeap.java)
 
 **How the `MinHeap` implementation was tested:**
 
@@ -786,7 +786,7 @@ unlike an `MyArrayList`, which pre-allocates extra space,
 leading to potentially inefficient memory usage due to unused slots.
 Each method in the `MyStack` class is provided by JavaDoc comments for clarity.
 
-**Implementation:** [MyStack](../src/nl/saxion/cds/custom_data_structures/MyStack.java)
+**Implementation:** [MyStack](../src/custom_data_structures/MyStack.java)
 
 **How the implementation of `MyStack` was tested:**
 
@@ -855,7 +855,7 @@ However, in a queue, the `peek` method returns the first element, not the last.
 
 Each method in the `MyQueue` class includes JavaDoc comments for clarity.
 
-**Implementation:** [MyQueue](../src/nl/saxion/cds/custom_data_structures/MyQueue.java)
+**Implementation:** [MyQueue](../src/custom_data_structures/MyQueue.java)
 
 **How the implementation of `MyQueue` was tested:**
 
@@ -870,7 +870,7 @@ ensuring it produces the correct string representation for both empty and non-em
 
 ## My Graph
 
-**Implementation:** [MyGraph](../src/nl/saxion/cds/custom_data_structures/MyGraph.java)
+**Implementation:** [MyGraph](../src/custom_data_structures/MyGraph.java)
 
 **Implementation details:**
 
@@ -928,7 +928,7 @@ The complexity `O(V + E)` comes from visiting each vertex once (V) and traversin
 **Classification retrieved from this website:
 ** https://www.geeksforgeeks.org/time-and-space-complexity-of-depth-first-search-dfs/
 
-**Implementation:** [MyGraph](../src/nl/saxion/cds/custom_data_structures/MyGraph.java)
+**Implementation:** [MyGraph](../src/custom_data_structures/MyGraph.java)
 
 **Implementation details:**
 The `MyGraph` class implements a depth-first search (DFS) traversal using a custom DFS iterator.
@@ -977,7 +977,7 @@ Together, these operations result to an overall complexity of `O((V + E) log V)`
 **The time complexity of Dijkstra algorithm was retrieved from this website:
 ** https://www.geeksforgeeks.org/time-and-space-complexity-of-dijkstras-algorithm/
 
-**Implementation:** [MyGraph](../src/nl/saxion/cds/custom_data_structures/MyGraph.java)
+**Implementation:** [MyGraph](../src/custom_data_structures/MyGraph.java)
 
 **Implementation details:**
 
@@ -1036,7 +1036,7 @@ edges with logarithmic operations on the queue results in a total complexity of 
 **The time complexity of A star algorithm was retrieved from this Wikipedia:
 ** [AStarComplexity](https://en.wikipedia.org/wiki/A*_search_algorithm)
 
-**Implementation:** [MyGraph](../src/nl/saxion/cds/custom_data_structures/MyGraph.java)
+**Implementation:** [MyGraph](../src/custom_data_structures/MyGraph.java)
 
 **Implementation details:**
 
@@ -1101,7 +1101,7 @@ So it results in the provided time complexity.
 
 ![MCSTPrimComplexity](../resources/imagesForDocumentation/mcstComplexity.png)
 
-**Implementation:** [MyGraph](../src/nl/saxion/cds/custom_data_structures/MyGraph.java)
+**Implementation:** [MyGraph](../src/custom_data_structures/MyGraph.java)
 
 **Implementation details:**
 
@@ -1161,7 +1161,7 @@ The Application class relies on the TrackManager class for processing of user re
 
 The TrackManager class is responsible for managing and processing data related to stations and tracks:
 
-- Data loading: Reads station and track data from CSV files using `LambdaReader`.
+- Data loading: Reads station and track data from CSV files using `reader.LambdaReader`.
 - Custom data structure usage: The TrackManager uses custom data structures like MyArrayList, MyHashMap, and MyGraph, MyAVLBinarySearchTree for user requests processing.
 - Graph creation: Creates graphs representing the railway network for the shortest path and MCST retrieval.
 - Station/stations searching: Provides methods to retrieve station or stations` information based on code, name, or type, including prefix-based name search.
@@ -1182,15 +1182,15 @@ This output is then used to display information to the user.
 
 **Reading data:**
 
-The data reading classes, `CSVReader` and `LambdaReader`, are designed to read CSV files.
+The data reading classes, `reader.CSVReader` and `reader.LambdaReader`, are designed to read CSV files.
 
 These class implementations were part of the Software Development Principles (SDP) course,
 covering the concept of a generic CSV reader.
 The code was copied from last year's SDP exercises.
 
-- **CSVReader**: This class reads CSV files line-by-line, splitting each line into columns based on a specified delimiter. It supports skipping headers if needed and provides a method to close the resources safely.
+- **reader.CSVReader**: This class reads CSV files line-by-line, splitting each line into columns based on a specified delimiter. It supports skipping headers if needed and provides a method to close the resources safely.
 
-- **LambdaReader**: Extending `CSVReader`, `LambdaReader` uses a `Creator` interface to transform each line into a specific object type `T`. This allows dynamic object creation from CSV data, making it highly reusable and adaptable for different data types.
+- **reader.LambdaReader**: Extending `reader.CSVReader`, `reader.LambdaReader` uses a `reader.Creator` interface to transform each line into a specific object type `T`. This allows dynamic object creation from CSV data, making it highly reusable and adaptable for different data types.
 
 These classes are used for loading station and track data into the `TrackManager` data structures.
 

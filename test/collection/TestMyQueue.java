@@ -1,7 +1,6 @@
 package collection;
 
-import nl.saxion.cds.collection.EmptyCollectionException;
-import nl.saxion.cds.custom_data_structures.MyQueue;
+import custom_data_structures.MyQueue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

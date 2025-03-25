@@ -1,13 +1,9 @@
 package collection;
 
-import nl.saxion.cds.collection.KeyNotFoundException;
-import nl.saxion.cds.collection.SaxGraph;
-import nl.saxion.cds.collection.SaxList;
-
-import nl.saxion.cds.custom_data_structures.MyArrayList;
-import nl.saxion.cds.custom_data_structures.MyGraph;
-import nl.saxion.cds.custom_data_structures.MyHashMap;
-import nl.saxion.cds.solution.Coordinate;
+import custom_data_structures.MyArrayList;
+import custom_data_structures.MyGraph;
+import custom_data_structures.MyHashMap;
+import app.Coordinate;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

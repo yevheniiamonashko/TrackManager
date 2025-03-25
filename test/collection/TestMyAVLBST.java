@@ -1,9 +1,7 @@
 package collection;
 
-import nl.saxion.cds.collection.DuplicateKeyException;
-import nl.saxion.cds.collection.KeyNotFoundException;
-import nl.saxion.cds.custom_data_structures.MyAVLBinarySearchTree;
-import nl.saxion.cds.custom_data_structures.MyArrayList;
+import custom_data_structures.MyAVLBinarySearchTree;
+import custom_data_structures.MyArrayList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

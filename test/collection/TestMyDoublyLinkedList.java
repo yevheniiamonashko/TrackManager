@@ -1,9 +1,6 @@
 package collection;
 
-import nl.saxion.cds.collection.EmptyCollectionException;
-import nl.saxion.cds.collection.SaxSearchable;
-import nl.saxion.cds.collection.ValueNotFoundException;
-import nl.saxion.cds.custom_data_structures.MyDoublyLinkedList;
+import custom_data_structures.MyDoublyLinkedList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
